@@ -43,19 +43,19 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         int id=view.getId();
         switch (id){
             case R.id.Popular_Movies:
-                displayMessage("Popular_Movies");
+                displayMessage("Popular Movies");
                 break;
             case R.id.Stock_Hawk:
-                displayMessage("Stock_Hawk");
+                displayMessage("Stock Hawk");
                 break;
             case R.id.Build_it_Bigger:
-                displayMessage("Build_it_Bigger");
+                displayMessage("Build it Bigger");
                 break;
             case R.id.MYAM:
-                displayMessage("MYAM");
+                displayMessage("Make your app material");
                 break;
             case R.id.Go_Ubiquitous:
-                displayMessage("Go_Ubiquitous");
+                displayMessage("Go Ubiquitous");
                 break;
             case R.id.Capstone:
                 displayMessage("Capstone");
@@ -66,6 +66,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     }
 
     private void displayMessage(String message) {
-        Toast.makeText(this,"this button will launch my "+message+"project",Toast.LENGTH_LONG).show();
+        Toast.makeText(this,"this button will launch my "+message+" project",Toast.LENGTH_LONG).show();
     }
 }
